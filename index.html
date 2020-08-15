@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport"content="width=devive-width, initial-scale=1.0">
  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?/family=Flamenco"rel="stylesheet"> -->
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
        {
   margin: 0px;
@@ -131,6 +131,34 @@ h1{
   }
 @media only screen and (max-width:768px){
   h1{font-size: 180%;
+    .main-nav{display: none;}
+  .mobile-icon{
+    display:inline-block;
+    color: #fff;
+    float:right;
+    margin-top:30px;
+    margin-right: 20px;
+  }
+  .main-nav{
+    float: left;
+  }
+  .main-nav li{
+  
+    display: block;
+    margin-top: 10px;
+    
+  }
+  
+  
+  
+  }
+@media only screen and (max-width:480px){
+  .btn-full{
+    margin-bottom: 20px;
+  }
+  h1{font-size: 160%;
+}
+}
   </style>
   </head>
   <body>
@@ -144,7 +172,7 @@ h1{
  <li><a href="#">CHECK MORE</a></li>
  <li><a href="#">SIGN UP</a></li>
           </ul>
-          <!-- <a href="#" class="mobile-icon op"onclick="slideshow ()">
+          <a href="#" class="mobile-icon op"onclick="slideshow ()">
              <i class="fa fa-bars"></i>
           </a> -->
           
