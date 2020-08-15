@@ -12,7 +12,7 @@ body{
 
 header {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5
-  )),url('../images/back.jpg');
+  )),url('images/back.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -33,7 +33,7 @@ header {
   height: 120px;
   width: auto;
   float: left;
-  marging-top:20px;
+  margin-top:20px;
 }
 .main-nav{
   float: right;
@@ -149,5 +149,4 @@ h1{
   }
   h1{font-size: 160%;
 }
-
-
+}
